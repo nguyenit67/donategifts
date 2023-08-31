@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 function Nav(props) {
 	const { user, agency } = props;
 
-	console.log('render nav', user, agency);
+	// console.log('render nav', user, agency);
 
 	return (
 		<nav className="navbar navbar-expand-lg bg-body-white">
